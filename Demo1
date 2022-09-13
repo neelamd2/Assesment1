@@ -1,0 +1,8 @@
+import java.awt.Desktop;
+import java.net.URI;
+public class Demo1{
+public static void main(string[] args) throws Exception
+{
+Desktop d = new Desktop();
+d.browse(new URI("https://www.wikipedia.org/"));
+}}
